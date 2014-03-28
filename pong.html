@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF8" />
+	<title></title>
+	<style type="text/css">
+		#pong {
+			display: block;
+			margin: 40px auto;
+			border: 1px solid silver;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="pong"></canvas>
+	<!-- audio free resource http://www.freesound.org/people/altemark/sounds/23338/ -->
+	<audio preload="true" id="collide">
+		<source src="resources/hit.wav" />
+	</audio>
+	<audio preload="true" id="round_end">
+		<source src="resources/round_end.wav" />
+	</audio>
+	<script	type="text/javascript" src="resources/pong.js"></script>
+</body>
+</html>
